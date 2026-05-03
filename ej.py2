@@ -1,0 +1,11 @@
+vehiculos = [
+    car("Ford", "F150", 2022),
+    car("Ferrari", "F80", 2026),
+    bicicle("Montaña", "GW"),
+    bicicle("Ruta", "Trek")
+]
+
+for v in vehiculos:
+    print("\nTipo:", type(v).__name__)
+    v.accelerate()
+    print("Velocidad actual:", v.velocity)
