@@ -1,3 +1,4 @@
+//6
 vehiculos = [
     car("Ford", "F150", 2022),
     car("Ferrari", "F80", 2026),
@@ -9,3 +10,54 @@ for v in vehiculos:
     print("\nTipo:", type(v).__name__)
     v.accelerate()
     print("Velocidad actual:", v.velocity)
+
+
+
+
+//7
+from abc import ABC, abstractmethod
+
+
+class Animal(ABC):
+
+    def hacerSonido(self):
+        pass
+
+class Perro(Animal):
+    def hacerSonido(self):
+        print("El perro hace: Guau")
+
+
+class Gato(Animal):
+    def hacerSonido(self):
+        print("El gato hace: Miau")
+
+animales = [Perro(), Gato()]
+
+
+
+8//
+
+class Volador:
+    def volar(self):
+        pass
+
+
+class Pajaro(Volador):
+    def volar(self):
+        print("El pájaro vuela usando alas")
+
+class Avion(Volador):
+    def volar(self):
+        print("El avión vuela usando motores")
+
+
+voladores = [Pajaro(), Avion()]
+
+for v in voladores:
+    v.volar()
+
+
+# Recorrer lista
+for animal in animales:
+    animal.hacerSonido()
