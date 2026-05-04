@@ -1,3 +1,7 @@
+# Ejercicio 6, 7 y 8
+# Objetivo: Polimosfismo, herencia, listas de objetos, clases abstractas, metodos abstractos, interfaces e implementacion de métodos.
+# Autor: Estudiante Santiago Loaiza Sanchez
+
 from ejercicios_4_5 import *
 
 vehiculos = [

@@ -1,6 +1,6 @@
 # Ejercicio 9: Composición
 # Objetivo: entender cómo una clase puede contener otra clase
-# Autor: Estudiante POO
+# Autor: Estudiante Omar Pulido Rojas.
 
 
 # Clase Motor con sus atributos básicos

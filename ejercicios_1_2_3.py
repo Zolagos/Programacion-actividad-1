@@ -1,3 +1,7 @@
+# Ejercicio 1, 2 y 3
+# Objetivo: Clases, objetos, métodos, encapsulamiento, modificadores de acceso, contructores e inicializacion de objetos.
+# Autor: Estudiante Sharon Meriño Galvis
+
 class car:
 
     def __init__(self, brand, model, year):

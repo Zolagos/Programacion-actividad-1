@@ -1,6 +1,6 @@
 # Ejercicio 10: Manejo de Excepciones y Clases Personalizadas
 # Objetivo: crear una excepción personalizada y manejarla correctamente
-# Autor: Estudiante POO
+# Autor: Estudiante Omar Pulido Rojas.
 
 
 # Excepción personalizada para cuando se pasa el límite de velocidad

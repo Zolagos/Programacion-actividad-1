@@ -1,3 +1,8 @@
+# Ejercicio 4 y 5
+# Objetivo: Herencias, clases padre e hijos, sobreescritura de metodos y polimorfismo.
+# Autor: Estudiante Sharon Meriño Galvis
+
+
 class vehicle:
     velocity = 0
     def accelerate(self):
