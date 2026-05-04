@@ -1,4 +1,5 @@
-//6
+from ejercicios_4_5 import *
+
 vehiculos = [
     car("Ford", "F150", 2022),
     car("Ferrari", "F80", 2026),
@@ -14,12 +15,12 @@ for v in vehiculos:
 
 
 
-//7
+
 from abc import ABC, abstractmethod
 
 
 class Animal(ABC):
-
+    @abstractmethod
     def hacerSonido(self):
         pass
 
@@ -34,14 +35,16 @@ class Gato(Animal):
 
 animales = [Perro(), Gato()]
 
+# Recorrer lista
+for animal in animales:
+    animal.hacerSonido()
 
 
-8//
 
 class Volador:
+
     def volar(self):
         pass
-
 
 class Pajaro(Volador):
     def volar(self):
@@ -58,6 +61,4 @@ for v in voladores:
     v.volar()
 
 
-# Recorrer lista
-for animal in animales:
-    animal.hacerSonido()
+
